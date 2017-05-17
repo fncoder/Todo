@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+	<link rel="stylesheet" href="stylesheets/app.min.css">
+</head>
+<body>
+<div class="app">
+	<div class="activate all">
+		<label class="switch">
+			<input type="checkbox">
+			<div class="slider"></div>
+		</label>
+		<div class="status off"></div>
+	</div>
+	<div class="content">
+		<ul class="content-list list-all">
+			<input type="text" class="things input-off" placeholder="Write something">
+		</ul>
+		<ul class="content-list list-complete">
+		</ul>
+		<ul class="content-list list-incompleted">
+		</ul>
+	</div>
+	<div class="bottom">
+		<div class="active-tabs">
+			<span class="tabs tab-all tab-active" data-tab="0">All</span>
+			<span class="tabs tab-complete" data-tab="1">Complete</span>
+			<span class="tabs tab-incompleted" data-tab="2">Incomplete</span>
+		</div>
+	</div>
+</div>
+<script src="js/app.min.js"></script>
+</body>
+</html>
