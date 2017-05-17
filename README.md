@@ -2,7 +2,7 @@
 
 > Simple todo app to manage your tasks. Application was written in JavaScript (ES6)
 
-[See demo](https://github.com/fncoder/Todo/)
+[See demo](https://fncoder.github.io/Todo/)
 
 ## Features
 
